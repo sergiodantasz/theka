@@ -22,7 +22,17 @@ type Props = Readonly<{ children: React.ReactNode }>;
 export default function RootLayout({ children }: Props) {
   return (
     <html lang='pt-br' className={`${dmSans.variable} ${inter.variable}`}>
-      <body>{children}</body>
+      <body>
+        <div className='flex min-h-dvh flex-col justify-between gap-8 sm:gap-16'>
+          <div className='mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 pt-16 sm:px-8 sm:pt-32'>
+            {children}
+          </div>
+          <footer>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Aspernatur, deserunt.
+          </footer>
+        </div>
+      </body>
     </html>
   );
 }
