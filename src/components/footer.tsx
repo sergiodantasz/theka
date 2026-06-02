@@ -11,7 +11,7 @@ import { SiInstagram, SiTiktok, SiX } from "@icons-pack/react-simple-icons";
 export function Footer() {
   return (
     <footer className='bg-pink-dark text-white'>
-      <div className='mx-auto flex max-w-7xl flex-col justify-between gap-8 p-8 sm:flex-row sm:gap-32'>
+      <div className='xs:px-8 mx-auto flex max-w-7xl flex-col justify-between gap-8 px-4 py-8 sm:flex-row sm:gap-32'>
         <div className='self-center sm:self-auto'>
           <Image
             src='/full-logo-pink.svg'

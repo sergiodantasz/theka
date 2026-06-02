@@ -4,6 +4,8 @@
   --font-body: var(--font-inter);
   --font-heading: var(--font-dm-sans);
 
+  --breakpoint-xs: 30rem;
+
   /* Gold */
   --color-gold-50: #fff0d9;
   --color-gold-100: #f8c200;
