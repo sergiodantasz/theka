@@ -5,12 +5,13 @@ export function Navbar() {
   return (
     <nav className='xs:inset-x-8 fixed inset-x-4 top-8 mx-auto max-w-7xl'>
       <div className='xs:gap-8 flex gap-4'>
-        <div className='flex shrink-0 items-center justify-center rounded-full border border-white/20 bg-linear-to-b from-neutral-50/60 to-neutral-50/40 shadow-md/5 inset-shadow-sm backdrop-blur-sm'>
+        <div className='flex shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/20 bg-linear-to-b from-neutral-50/60 to-neutral-50/40 shadow-md/5 inset-shadow-sm backdrop-blur-sm'>
           <Image
             src='/logo-grey.svg'
             alt='Logotipo da Theka'
             width={50}
             height={50}
+            className='scale-105'
           />
         </div>
         <ul className='font-heading flex flex-1 items-center justify-between gap-4 rounded-full border border-white/20 bg-linear-to-b from-neutral-50/60 to-neutral-50/40 px-8 text-xl font-bold text-neutral-400 shadow-md/5 inset-shadow-sm backdrop-blur-sm'>
