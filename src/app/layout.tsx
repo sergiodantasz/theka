@@ -26,7 +26,7 @@ export default function Layout({ children }: Props) {
     <html lang='pt-br' className={`${dmSans.variable} ${inter.variable}`}>
       <body>
         <Navbar />
-        <div className='min-h-dvh'>
+        <div className='xs:max-w-336 mx-auto min-h-dvh max-w-328'>
           <div className='xs:px-8 px-4 pt-29 pb-8'>{children}</div>
         </div>
         <Footer />
