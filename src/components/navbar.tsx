@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export function Navbar() {
   return (
-    <nav className='fixed inset-x-8 top-8 mx-auto max-w-7xl'>
-      <div className='flex gap-8'>
-        <div className='flex shrink-0 items-center justify-center rounded-full border border-white/50 bg-white/10 shadow-lg backdrop-blur-sm'>
+    <nav className='xs:inset-x-8 fixed inset-x-4 top-8 mx-auto max-w-7xl'>
+      <div className='xs:gap-8 flex gap-4'>
+        <div className='flex shrink-0 items-center justify-center rounded-full border border-white/20 bg-linear-to-b from-neutral-50/60 to-neutral-50/40 shadow-md/5 inset-shadow-sm backdrop-blur-sm'>
           <Image
             src='/logo-grey.svg'
             alt='Logotipo da Theka'
@@ -13,7 +13,7 @@ export function Navbar() {
             height={50}
           />
         </div>
-        <ul className='font-heading flex flex-1 items-center justify-between gap-4 rounded-full border border-white/50 bg-white/10 px-8 text-xl font-bold text-[#5A5A5A] shadow-lg backdrop-blur-sm'>
+        <ul className='font-heading flex flex-1 items-center justify-between gap-4 rounded-full border border-white/20 bg-linear-to-b from-neutral-50/60 to-neutral-50/40 px-8 text-xl font-bold text-neutral-400 shadow-md/5 inset-shadow-sm backdrop-blur-sm'>
           <li className='hidden sm:block'>
             <a href=''>Início</a>
           </li>
