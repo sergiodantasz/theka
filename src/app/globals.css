@@ -3,6 +3,60 @@
 @theme {
   --font-body: var(--font-inter);
   --font-heading: var(--font-dm-sans);
+
+  /* Gold */
+  --color-gold-50: #fff0d9;
+  --color-gold-100: #f8c200;
+  --color-gold-200: #c89d00;
+  --color-gold-300: #9b7900;
+  --color-gold-400: #705700;
+  --color-gold-500: #483700;
+  --color-gold-600: #241a00;
+  --color-gold-main: #f1be05;
+
+  /* Orange */
+  --color-orange-*: initial;
+  --color-orange-50: #feede7;
+  --color-orange-100: #fdbb9f;
+  --color-orange-200: #f78520;
+  --color-orange-300: #c06616;
+  --color-orange-400: #8c490d;
+  --color-orange-500: #5b2d05;
+  --color-orange-600: #2f1401;
+  --color-orange-main: #f78520;
+
+  /* Green */
+  --color-green-*: initial;
+  --color-green-50: #cbfd87;
+  --color-green-100: #a1d54a;
+  --color-green-200: #81ab3a;
+  --color-green-300: #62832a;
+  --color-green-400: #455e1c;
+  --color-green-500: #2a3a0e;
+  --color-green-600: #111a04;
+  --color-green-main: #a1d54a;
+
+  /* Pink */
+  --color-pink-*: initial;
+  --color-pink-50: #ffecf0;
+  --color-pink-100: #ffc1cf;
+  --color-pink-200: #ff83a5;
+  --color-pink-300: #fe177b;
+  --color-pink-400: #bf0259;
+  --color-pink-500: #81013a;
+  --color-pink-600: #48001d;
+  --color-pink-main: #f36ec7;
+  --color-pink-dark: #81013a;
+
+  /* Neutral */
+  --color-neutral-*: initial;
+  --color-neutral-50: #f2f2f1;
+  --color-neutral-100: #cacac9;
+  --color-neutral-200: #a3a3a2;
+  --color-neutral-300: #7e7e7d;
+  --color-neutral-400: #5a5a5a;
+  --color-neutral-500: #393939;
+  --color-neutral-600: #1b1b1b;
 }
 
 body {
