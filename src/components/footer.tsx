@@ -10,7 +10,7 @@ import { SiInstagram, SiTiktok, SiX } from "@icons-pack/react-simple-icons";
 
 export function Footer() {
   return (
-    <footer className='bg-pink-dark text-white'>
+    <footer className='bg-pink-500 text-white'>
       <div className='xs:px-8 mx-auto flex max-w-7xl flex-col justify-between gap-8 px-4 py-8 sm:flex-row sm:gap-32'>
         <div className='self-center sm:self-auto'>
           <Image
@@ -23,7 +23,7 @@ export function Footer() {
         </div>
         <div className='flex flex-1 flex-col flex-wrap justify-between gap-8 sm:flex-row'>
           <div>
-            <h4 className='font-heading mb-2.5 text-2xl'>Contato</h4>
+            <h4 className='mb-2.5 text-2xl'>Contato</h4>
             <ul className='flex flex-col gap-1'>
               <li className='flex items-center gap-2'>
                 <SmartphoneIcon size={20} className='shrink-0' />
@@ -40,7 +40,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className='font-heading mb-2.5 text-2xl'>Redes sociais</h4>
+            <h4 className='mb-2.5 text-2xl'>Redes sociais</h4>
             <ul className='flex flex-col gap-1'>
               <li className='flex items-center gap-2'>
                 <SiInstagram size={20} className='shrink-0' />
@@ -57,7 +57,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className='font-heading mb-2.5 text-2xl'>Ajuda</h4>
+            <h4 className='mb-2.5 text-2xl'>Ajuda</h4>
             <ul className='flex flex-col gap-1'>
               <li className='flex items-center gap-2'>
                 <InfoIcon size={20} className='shrink-0' />
